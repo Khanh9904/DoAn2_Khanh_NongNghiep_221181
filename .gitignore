@@ -1,0 +1,77 @@
+# ========================
+# Cursor AI rules
+# ========================
+.cursor/rules/codacy.mdc
+
+# ========================
+# Python cache
+# ========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+data/Images/
+# ========================
+# Virtual Environment
+# ========================
+venv/
+.env/
+.env.*
+.env
+.streamlit/secrets.toml
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+.cursor/
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Logs
+# ========================
+*.log
+
+# ========================
+# Model / Training artifacts
+# ========================
+# ❌ KHÔNG ignore toàn bộ nữa
+# artifacts/
+
+# ❌ KHÔNG ignore tất cả model
+# *.pkl
+# *.pt
+# *.pth
+
+# ========================
+# Chỉ ignore file KHÔNG cần
+# ========================
+embeddings_cache.pkl
+tfidf_matrix.pkl
+
+# ========================
+# Test / temp
+# ========================
+test/*.txt
+*.tmp
+
+# ========================
+# Secrets (bắt buộc ẩn)
+# ========================
+config_local.py
+secrets.yaml
+
+# ========================
+# Data
+# ========================
+# ❌ KHÔNG ignore toàn bộ data
+# data/
+
+# Nếu data lớn → chỉ giữ file cần thiết
+# Ví dụ:
+# data/Images/   

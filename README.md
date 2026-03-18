@@ -1,5 +1,8 @@
 Hệ thống AI hỗ trợ chẩn đoán bệnh cây trồng và hỏi đáp kiến thức nông nghiệp.
 
+
+link xem : https://doan2khanhnongnghiep221181-6nbkjuzajthr8o8uht3gmw.streamlit.app/
+
 Các bước làm hệ thống : 
 
 3 việc chính:
